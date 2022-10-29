@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins";
+}
+
+.new-member-section {
+  display: flex;
+  position: fixed;
+  top: 12rem;
+  left: 15%;
+}
+.new-member-section .new-member-container {
+  min-height: 20rem;
+  height: auto;
+  min-width: 15rem;
+  max-width: 17rem;
+  width: auto;
+  background-color: white;
+  padding: 1em;
+  box-shadow: 0px 1px 1px 1px #DCDCDC;
+}
+.new-member-section .new-member-container .div1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.new-member-section .new-member-container .div1 h1 {
+  font-size: 1em;
+}
+.new-member-section .new-member-container .div1 .header-icon {
+  color: gray;
+}
+.new-member-section .new-member-container .div1 .header-icon:hover {
+  cursor: pointer;
+  color: black;
+}
+.new-member-section .new-member-container .add-new-team-members {
+  margin-top: 2em;
+}
+.new-member-section .new-member-container .add-new-team-member {
+  margin-top: 1em;
+  overflow: auto;
+  border: 1px solid #DCDCDC;
+  font-size: 0.9em;
+  padding: 0.5em;
+  height: 70px;
+  width: 90%;
+}
+.new-member-section .new-member-container .add-new-team-member p {
+  color: #707070;
+}
+.new-member-section .new-member-container .add-new-team-member p:hover {
+  cursor: pointer;
+}
+.new-member-section .new-member-container .input-submit {
+  margin-top: 5rem;
+  margin-left: 1em;
+  float: left;
+  border-radius: 5px;
+  color: white;
+  background-color: #32de84;
+  opacity: 0.8;
+  padding: 0.5em 1em 0.5em 1em;
+  border: 0;
+}
+.new-member-section .new-member-container .input-submit:active {
+  background-color: white;
+  color: #32de84;
+}
+
+@media only screen and (min-width: 450px) {
+  .new-member-section {
+    left: 25%;
+  }
+  .new-member-section .new-member-container .input-submit:hover {
+    cursor: pointer;
+    background-color: white;
+    color: #32de84;
+  }
+}
+@media only screen and (min-width: 550px) {
+  .new-member-section {
+    left: 35%;
+    top: 5rem;
+  }
+}
+@media only screen and (min-width: 1100px) {
+  .new-member-section {
+    left: 45%;
+  }
+}/*# sourceMappingURL=new-member.css.map */

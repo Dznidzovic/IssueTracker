@@ -1,0 +1,521 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500&display=swap");
+
+$background-upper:#6699CC;
+$background-lower: 	#F0F8FF;
+$sidebar-text-color:#707070;
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+    
+}
+.project-details-mobile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    
+    h1{
+        margin-top: 3em;
+        align-self: flex-start;
+        margin-left: 1.5em;
+        margin-bottom: 1em;
+        color: white;
+        text-shadow: 1px 1px 1px black;
+    }
+    .container-1{
+        min-width: 90%;
+        max-width: 95%;
+        width:auto;
+        min-height: 20vh;
+        background-color: white;
+        height: auto;
+        box-shadow: 0px 1px 1px 1px #DCDCDC;
+        padding-bottom: 1em;
+        text-align: center;
+        .div1{
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            .contributors-h1{
+                margin-top: 0.7em;
+                margin-left: 1em;
+                text-shadow: 1px 1px 1px white;
+                color: black;
+                font-size: 1em;
+            }
+            .new-member-btn{
+                margin-top: 0.5em;
+                margin-right: 1em;
+                border: 0;
+                color: white;
+                padding: 0.3em 0.7em 0.3em 0.7em;
+                border-radius: 5px;
+                background-color: #8594e4;  
+               
+            }
+            .new-member-btn:active{
+                color: #8594e4;
+                background-color: white;
+            }
+
+        }  
+        .div2{
+            display: flex;
+            font-size: 0.8em;
+            justify-content: space-between;
+            align-items: flex-start;
+            height: auto;
+            padding-top: 0.5em;
+            padding-bottom: 0.5em;
+            background-color: #F5F5F5;
+            border: 1px solid #DCDCDC;
+            p{
+                margin-left: 1em;
+                margin-right: 1em;
+                color: #707070;
+            }
+            .middle-paragraph{
+                margin-left: 0;
+                margin-right: 0;
+            }
+            
+        }
+        .div3{
+            display: flex;
+            font-size: 0.7em;
+            justify-content: space-between;
+            align-items: flex-start;
+            height: auto;
+            padding-top: 1em;
+            padding-bottom: 1em;
+            border-bottom: 1px solid #DCDCDC;
+            p{
+                margin-left: 1em;
+                margin-right: 1em;
+                color: #707070;
+            }
+            .middle-paragraph{
+                margin-left: 0;
+                margin-right: 0;
+            }
+            .phone-container{
+                display: flex;
+                align-items: flex-start;
+                justify-content: space-between;
+                .phone-icon{
+                    color: #707070;
+                    margin-right: 0.5em;
+                    margin-top: 0.2em;
+                }
+            
+            }
+            .div3:hover{
+                cursor: pointer;
+                background-color:#7CB9E8;
+                p{
+                    color: white;
+                }
+                .author-container{
+                    .trash-icon{
+                        color: white;
+                        
+                    }
+                    .trash-icon:hover{
+                        color: black;
+                    }
+                }
+            }
+
+        }
+        .div4{
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            padding-top: 1em;
+            padding-bottom: 1em;
+            .div4-arrow-left{
+                font-size: 0.5em;
+                padding: 0.8em;
+                border: 1px solid #D3D3D3;
+                border-radius: 100%;
+                color: black;
+                margin-left: 1em;
+            }
+            .div4-arrow-left:active{
+                color: #8594e4;
+                background-color: white;
+            }
+            .div4-arrow-right{
+                font-size: 0.5em;
+                padding: 0.8em;
+                border: 1px solid #D3D3D3;
+                border-radius: 100%;
+                color: black;
+                margin-right: 1em;
+            }
+            .div4-arrow-right:active{
+                color: #8594e4;
+                background-color: white;
+            }
+
+        }
+        .add-contributors-for-project{
+            color: #707070;
+            margin-top: 1em;
+            font-size: 0.9em;
+           
+        }
+        
+    }
+    .p-managment-h1{
+        text-shadow: 1px 1px 1px white;
+        color: black;
+        margin-left: 25%;
+    }
+    .container-2{
+
+        width: 90%;
+        min-height: 20vh;
+        background-color: white;
+        height: auto;
+        box-shadow: 0px 1px 1px 1px #DCDCDC;
+        margin-top: 4em;
+        text-align: center;
+            .add-new-tickets-p{
+                color: #707070;
+                margin-top: 2em;
+            }
+            .div1{
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-start;
+                border-bottom: 1px solid black;
+                .tickets-h1{
+                    font-size: 1em;
+                    margin: 1em;
+                    text-shadow: 1px 1px 1px white;
+                    color: black;
+                }
+                .search-input{
+                    margin-top: 1em;
+                    border-radius: 5px;
+                    border: 1px solid #DCDCDC;
+                    color: black;
+                    padding-left: 1em;
+                    font-size: 0.9em;
+                    width: 30%;
+                    margin-top: 1.2em;
+
+                }
+                .search-input::placeholder{
+                    color: gray;
+                }
+                .search-input:focus{
+                    outline: none;
+                }
+                .new-ticket-btn{
+                    margin-top: 1em;
+                    margin-right: 1em;
+                    border: 0;
+                    color: white;
+                    padding: 0.3em 0.7em 0.3em 0.7em;
+                    border-radius: 5px;
+                    background-color: #8594e4;  
+                }
+                .new-ticket-btn:active{
+                    color: #8594e4;
+                    background-color: white;
+    
+                }
+            }
+            .div2{
+                
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-start;
+                height: auto;
+                border-bottom: 1px solid #D3D3D3;
+                padding-bottom: 1em;
+                padding-top: 1em;
+                p{
+                    font-size: 0.8em;
+                    margin-left: 1em;
+                    margin-right: 1em;
+                    color: #707070;
+                }
+                .middle-paragraph{
+                    margin-left: 0;
+                    margin-right: 0;
+                }
+                .title-container{
+                    display: flex;
+                    align-items: flex-start;
+                    justify-content: space-between;
+                    .trash-icon{
+                        margin-top: 0.2em;
+                        margin-left: 0.5em;
+                        margin-right: 0.5em;
+                        color: #707070;
+                    }
+                    .trash-icon:active{
+                        cursor: pointer;
+                        color: black;
+                    }
+                }
+                
+            }
+            .div2-clicked{
+                background-color:#7CB9E8;
+                p{
+                    color: white;
+                }
+                .div2{
+                    .trash-icon{
+                        color:white;
+                    }
+                }
+
+            }
+            .div2-bottom{
+                border-bottom: 1px solid black;
+            }
+            .div4{
+                display: flex;
+                align-items: flex-start;
+                justify-content: space-between;
+                padding-top: 1em;
+                padding-bottom: 1em;
+                .div4-arrow-left{
+                    font-size: 0.5em;
+                    padding: 0.8em;
+                    border: 1px solid #D3D3D3;
+                    border-radius: 100%;
+                    color: black;
+                    margin-left: 1em;
+                }
+                .div4-arrow-left:active{
+                    color: #8594e4;
+                    background-color: white;
+                }
+                .div4-arrow-right{
+                    font-size: 0.5em;
+                    padding: 0.8em;
+                    border: 1px solid #D3D3D3;
+                    border-radius: 100%;
+                    color: black;
+                    margin-right: 1em;
+                }
+                .div4-arrow-right:active{
+                    color: #8594e4;
+                    background-color: white;
+                }
+                .arrow-enable{
+                    pointer-events: all;
+                    color: black;
+                }
+                .arrow-disable{
+                    pointer-events: none;
+                    color: gray;
+                }
+    
+            }
+        }
+    .container-3{
+        margin-top: 4em;
+        min-width: 90%;
+        width:auto;
+        min-height: 20vh;
+        background-color: white;
+        height: auto;
+        box-shadow: 0px 1px 1px 1px #DCDCDC;
+        
+        h1{
+            margin-top: 0.5em;
+            margin-left: 5.5em;
+            font-size: 1em;
+            text-shadow: 1px 1px 1px white;
+            color: black;
+        }
+        .ticket-info{
+            .div1{
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-start;
+                height: auto;
+                border-bottom: 1px solid #D3D3D3;
+                padding-bottom: 1em;
+                padding-top: 1em;
+                p{
+                    font-size: 0.8em;
+                    margin-left: 1em;
+                    margin-right: 1em;
+                    color: #707070;
+                }
+                .state-p{
+                    margin-left: 0.4em;
+                    font-size: 0.8em;
+                    border-radius: 5px;
+                    background-color: #6699CC;
+                    color: white;
+                    padding-left: 0.5em;
+                    padding-right: 0.5em;
+                }
+           
+            }
+        }
+    }
+
+    .container-4{
+        margin-top: 4em;
+        margin-bottom: 8em;
+        min-width: 90%;
+        width:auto;
+        min-height: 20vh;
+        background-color: white;
+        height: auto;
+        box-shadow: 0px 1px 1px 1px #DCDCDC;
+        
+        h1{
+            margin-top: 0.5em;
+            margin-left:8em;
+            font-size: 1em;
+            text-shadow: 1px 1px 1px white;
+            color: black;
+        }
+        .comment{
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            font-size: 0.8em;
+            border-top: 1px solid #D3D3D3;
+            border-bottom: 1px solid #D3D3D3;
+            color: black;
+            padding-top: 0.5em;
+            padding-bottom: 0.5em;
+            p{
+                margin-left: 1em;
+            }
+            span{
+                font-size: 0.7em;
+                color:black;
+            }
+            .comment-text{
+                margin-top: 1em;
+                color:#707070;
+                
+            }
+            .trash-can-icon{
+                margin-top: 1.5em;
+                color: #AA0000;
+                margin-right: 0.5em;
+            }
+            .trash-can-icon:active{
+                color: black;
+            }
+        }
+        .div4{
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            padding-top: 1em;
+            padding-bottom: 1em;
+            .div4-arrow-left{
+                font-size: 0.5em;
+                padding: 0.8em;
+                border: 1px solid #D3D3D3;
+                border-radius: 100%;
+                color: black;
+                margin-left: 1em;
+            }
+            .div4-arrow-left:active{
+                color: #8594e4;
+                background-color: white;
+            }
+            .div4-arrow-right{
+                font-size: 0.5em;
+                padding: 0.8em;
+                border: 1px solid #D3D3D3;
+                border-radius: 100%;
+                color: black;
+                margin-right: 1em;
+            }
+            .div4-arrow-right:active{
+                color: #8594e4;
+                background-color: white;
+            }
+            .arrow-enable{
+                color: black;
+                pointer-events: all;
+            }
+            .arrow-disable{
+                color: gray;
+                pointer-events: none;
+                
+            }
+
+        }
+        .input{
+            margin-top: 1em;
+            margin-left: 15%;
+            input{
+                width: 60%;
+                border: 1px solid #DCDCDC;
+                border-radius: 5px;
+                padding: 0.5em;
+
+            }
+            input:focus{
+                outline: none;
+            }
+            .input-submit{
+                width: auto;
+                background-color: #8594e4;
+                color: white;
+            }
+        }
+    }
+}
+@media  only screen and (min-width:"480px") {
+    .container-1{
+        .div1{
+            button:hover{
+                cursor: pointer;
+                background-color: white;
+                color: #8594e4;
+            }
+            
+        }
+        .phone-icon{
+            cursor: pointer;
+            color: black;
+        }
+        .div4{
+            .div4-arrow-left:hover{
+                cursor: pointer;
+                color: #8594e4;
+            }.div4-arrow-right:hover{
+                cursor: pointer;
+                color: #8594e4;
+            }            
+        }
+    }
+    .container-2{
+        .new-ticket-btn:hover{
+            cursor: pointer;
+            color:#8594e4;
+            background-color: white;
+        }
+        .trash-icon{
+            cursor: pointer;
+            color: black;
+        }
+        
+    }
+    
+}

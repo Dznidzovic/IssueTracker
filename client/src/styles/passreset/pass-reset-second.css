@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins";
+}
+
+.pass-reset-section {
+  display: flex;
+  height: 100vh;
+  background-color: #003153;
+  background-size: 110%, 110%;
+  align-items: center;
+  justify-content: center;
+}
+.pass-reset-section h1 {
+  position: absolute;
+  z-index: 999;
+  margin-bottom: 25em;
+  color: #fff;
+  font-size: 1.5em;
+}
+.pass-reset-section .pass-reset-container {
+  z-index: 10;
+  width: 35vh;
+  height: 35vh;
+  background-color: white;
+  opacity: 1;
+  border-radius: 0.3em;
+}
+.pass-reset-section .pass-reset-container form {
+  margin-top: 1em;
+  margin-left: 1.5em;
+}
+.pass-reset-section .pass-reset-container input {
+  margin-top: 15px;
+  border-bottom: 1px solid #DCDCDC;
+  border-top: 2px solid white;
+  border-left: 0.2px solid #DCDCDC;
+  border-right: 0.2px solid #DCDCDC;
+  border-radius: 5px;
+  width: 80%;
+  outline: none;
+  color: #003153;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 2.5em;
+}
+.pass-reset-section .pass-reset-container input::-moz-placeholder {
+  color: #888888;
+  font-size: 1em;
+}
+.pass-reset-section .pass-reset-container input:-ms-input-placeholder {
+  color: #888888;
+  font-size: 1em;
+}
+.pass-reset-section .pass-reset-container input::placeholder {
+  color: #888888;
+  font-size: 1em;
+}
+.pass-reset-section .pass-reset-container .pr-paragraph {
+  margin-left: 30%;
+}
+.pass-reset-section .pass-reset-container .form-submit input {
+  background-color: #003153;
+  padding: 2px;
+  margin-top: 2em;
+  margin-left: 1.5em;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 0.8em;
+}
+.pass-reset-section .pass-reset-container .form-submit input:hover {
+  background-color: #fff;
+  color: #003153;
+}
+.pass-reset-section .pass-reset-container .icon {
+  color: gray;
+  position: absolute;
+  padding-top: 1.2em;
+  padding-left: 0.4em;
+}
+.pass-reset-section .pass-reset-container .error-paragraph {
+  color: #BA0021;
+  font-size: 0.7em;
+  margin: 0;
+  margin-bottom: -1em;
+  margin-left: 0.5em;
+}
+.pass-reset-section .pass-reset-container .password-changed-paragraph {
+  color: green;
+  font-size: 0.7em;
+  margin: 0;
+  margin-bottom: -1em;
+  margin-left: 3.5em;
+}
+.pass-reset-section h2 {
+  color: #778899;
+  position: absolute;
+  top: 80%;
+  font-size: 0.8em;
+}
+.pass-reset-section h2 span {
+  color: #6F00FF;
+}
+.pass-reset-section .login-paragraph {
+  margin-left: 8em;
+}
+.pass-reset-section h3 {
+  color: green;
+  margin-top: 30px;
+  font-size: 0.7em;
+}
+
+.pass-reset-section:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 40%;
+  background: linear-gradient(-45deg, #003153, #0066b2, #6CB4EE, #6CB4EE);
+  border-radius: 0 0 50% 50%/0 0 20% 20%;
+}
+
+@media only screen and (max-height: 600px) {
+  .pass-reset-section {
+    height: 150vh;
+  }
+}
+@media only screen and (max-height: 400px) {
+  .pass-reset-section {
+    height: 200vh;
+  }
+}
+@media only screen and (min-height: 950px) {
+  .pass-reset-section h1 {
+    font-size: 1.7em;
+  }
+  .pass-reset-section .pass-reset-container .pr-paragraph {
+    font-size: 1em;
+  }
+  .pass-reset-section .pass-reset-container form .form-submit .login-paragraph {
+    font-size: 1em;
+  }
+  .pass-reset-section .pass-reset-container form .form-submit .invalid-mail-paragraph {
+    font-size: 0.9em;
+  }
+  .pass-reset-section .pass-reset-container .form-submit input {
+    font-size: 1em;
+  }
+  .pass-reset-section input {
+    font-size: 1em;
+  }
+  .pass-reset-section input::-moz-placeholder {
+    font-size: 1em;
+  }
+  .pass-reset-section input:-ms-input-placeholder {
+    font-size: 1em;
+  }
+  .pass-reset-section input::placeholder {
+    font-size: 1em;
+  }
+  .acccount-doesentexist-paragraph {
+    font-size: 0.9em;
+  }
+  .email-sent-paragraph {
+    font-size: 0.9em;
+  }
+  h2 {
+    font-size: 1em;
+  }
+}/*# sourceMappingURL=pass-reset-second.css.map */

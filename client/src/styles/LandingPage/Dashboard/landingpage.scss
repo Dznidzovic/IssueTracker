@@ -1,0 +1,440 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500&display=swap");
+
+$background-upper:#6699CC;
+$background-lower: 	#F0F8FF;
+$sidebar-text-color:#707070;
+*{
+    margin: 0;
+    padding: 0;
+    ul{
+        list-style: none;
+    }
+    
+}
+
+.landing-page-container{
+  
+    height: 200vh;
+    background:linear-gradient(
+        to bottom,
+        $background-upper 0%,
+        $background-upper 15%,
+        $background-lower 15%,
+        $background-lower 120%
+    );
+    
+    
+    .sidebar-section{
+        display: flex;
+        justify-content: center;
+        box-shadow: 0px 0px 0px 0.5px #888888;
+        width: 100%;
+        background-color: white;
+        height: 100%;
+        .sidebar-container{
+           .sidebar-logo{
+            .logo-ul{
+                color:$background-upper;
+                li{
+                    display: inline-block;
+                }
+                .bug-icon{
+                    margin-top: 2em;
+                    margin-left: 2em;
+                    margin-right: 0.7em;
+                }
+            }
+           }
+        .sidebar-ul{
+            ul{
+                margin-left: 30%;
+                li{ 
+                font-size: 1em;
+                margin-top: 3em;
+                display: inline-block;
+               
+                color:$sidebar-text-color;
+                p{
+                   margin-left: 1em;
+                   font-size: 0.9em;
+                }
+                }
+                li:active{
+                    color: black;
+                }
+                
+                .sidebar1-li{
+                    
+                    .icon{
+                        color: $sidebar-text-color;
+                    }
+                   
+
+                }
+                .sidebar2-li{
+                    .icon{
+                        color: $background-upper;
+                    }
+                    
+                }
+                .sidebar3-li{
+                    .icon{
+                        color: #9e1b32;
+                    }
+                    
+                }
+            }
+            
+            
+         }
+        button{
+            background-color: #C41E3A;
+            border: 0;
+            border-radius: 5px;
+            color: white;
+            padding:  0.5em 1.2em 0.5em 1.2em;
+            margin-top: 4em;
+            margin-left: 40%;
+        }
+        button:active{
+            background-color: white;
+            color: #A52A2A;
+        }
+        }
+    
+    }
+    .upper{
+     
+        .upper-header{
+            color: white;
+            margin-left: 1.5em;
+            .dashboard-h1:active{
+                color: black;
+            }
+           
+            
+            li{
+                
+                margin-top: 1.5em;
+                margin-right: 1em;
+                display: inline-block;
+            }
+            .upper-header-menu:active{
+                color: black;
+            }
+            .upper-header-menu:hover{
+                cursor: pointer;
+                color: black;
+            }
+        }
+        
+    .statistics-container{
+        margin-top: 2em;
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .stat-container{
+            margin-top: 2em;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            min-width: 80%;
+            width: auto;
+            height: auto;
+            background-color: white;
+            box-shadow: 0px 1px 1px 1px #DCDCDC;
+           
+            div{
+                h1{
+                    margin-top: 1em;
+                    margin-left: -5em;
+                    font-size: 1em;
+
+                }
+            }
+        }
+        
+    }
+    }
+
+
+}
+
+.new-project{
+    position: fixed;
+    top: 5rem;
+    left: 10%;
+    min-height: 30rem;
+    height: auto;
+    width:80%;
+    max-width: 20rem;
+    background-color: white;
+    z-index: 5999;
+    border-radius: 5px;
+    box-shadow: 0px 1px 0px 1px #888888;
+    padding-bottom: 1em;
+    .header-ul{
+        h1{
+            color: 	#28282B;
+            float: left;
+            margin-top: 2em;
+            margin-left: 1em;
+            font-size: 0.8em;
+
+        }
+        .header-icon{
+            float: right;
+            color: #707070;
+            font-size: 1.2em;
+            margin-top: 1.2em;
+            margin-right: 1em;
+
+        }
+        .header-icon:active{
+            color: black;
+        }
+        .header-icon:hover{
+            cursor: pointer;
+            color: black;
+        }
+    }
+    form{
+        float: left;
+        margin-top: 1em;
+        div{
+            margin-left: 1em;
+            margin-top: 5%;
+            label{
+                
+                font-size: 1em;
+            }
+            input{
+                margin-top: 1em;
+                padding-top: 0.3em;
+                padding-bottom: 0.3em;
+                color: #28282B;
+                padding-left: 0.8em;
+                width: 90%;
+                border: 1px solid #DCDCDC;
+                outline: none;
+            }
+            input:active{
+                outline: none ;
+            }
+            input::placeholder{
+                font-size: 1em;
+                padding-left: 0.8em;
+                color: #707070;
+                
+            }
+            
+        }
+        
+        .add-new-team-members{
+            div{
+                border: 1px solid #DCDCDC;
+                margin-left: 0em;
+                height: 70px;
+                width: 90%;
+                padding: 0.5em;
+                padding-top: 0.2em;
+                padding-bottom: 0.2em;
+                overflow: auto;
+                p{
+                    color:#707070;
+                    overflow: auto;
+                    font-size: 0.8em;
+                    margin-top: 1em;
+                }
+                .first-paragraph{
+                    margin-top: 1em;
+                }
+               
+               
+                
+            }
+    }
+    
+}
+.new-project-submit-btn{
+    margin-top: 5rem;
+    margin-left: 1em;
+    float: left;
+    border-radius: 5px;
+    color: white;
+    background-color: #32de84;
+    opacity: 0.8;
+    padding: 0.5em 1em 0.5em 1em;
+    border: 0;
+}
+.new-project-submit-btn:active{
+    color: #32de84;
+    background-color: white;
+}
+
+}
+@media only screen and (min-width:"480px"){
+    .landing-page-container{
+        .upper{
+            .dashboard-h1:hover{
+                cursor: pointer;
+                color: black;
+            }
+        }
+        .sidebar-section{
+            padding-right: 1em;
+            
+            .sidebar-ul{
+               
+                ul{
+                    li:hover{
+                        color: black;
+
+                        cursor: pointer;
+                    }
+                
+                }
+                
+            }
+           
+            button:hover{
+                cursor: pointer;
+                color: #9e1b32;
+                background-color: white;
+
+            }
+        }
+        .new-project{
+            left: 20%;
+            .new-project-submit-btn:hover{
+                cursor: pointer;
+                background-color: white;
+                color: #32de84;
+            }
+            form{
+                div:hover{
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+@media only screen and(min-width:"550px"){
+    .landing-page-container{
+        .new-project{
+            left: 25%;
+        }
+    }
+}
+@media only screen and(min-width:"700px"){
+    .landing-page-container{
+        .new-project{
+            left: 40%;
+        }
+    }
+}
+
+@media only screen and (min-width:"1100px"){
+    .landing-page-container{
+
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        height: auto;
+        .sidebar-section{
+            min-height: 100vh;
+            height: auto;
+            width: 15rem;
+            .sidebar-container{
+                .sidebar-ul{
+                    ul{
+                        margin-left: 2em;
+                    }
+                }
+                button{
+                        margin-left: 5em;
+                }
+            }
+        }
+        .upper{
+            width: 80%;
+            .dashboard-h1{
+                margin-left: 0em;
+            }
+            .statistics-container{
+                margin-top: 0em;
+                margin-right: 1%;
+                margin-left: 1%;
+
+                display: flex;
+                flex-direction: row;
+                align-items: flex-start;
+                justify-content: space-between;
+                .stat-container{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    text-align: center;
+                    min-width: 30%;
+                    width: auto;
+                    height: auto;
+                    background-color: white;
+                    box-shadow: 0px 1px 1px 1px #DCDCDC;
+                   
+                    div{
+                        h1{
+                            font-size: 1em;
+
+                        }
+                    }
+                }
+            }
+        }
+    .new-project{
+        left: 45%;
+    }
+    }
+}
+
+
+@media only screen and (min-width:"1300px"){
+    .landing-page-container{
+        .upper{
+            .statistics-container{
+                margin-left: 0%;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width:"1500px"){
+    .landing-page-container{
+        .upper{
+            .statistics-container{
+                margin-left: -1%;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width:"1700px"){
+    .landing-page-container{
+        .upper{
+            .statistics-container{
+                margin-left: -3%;
+            }
+        }
+    }
+}
+@media only screen and (min-width:"2000px"){
+    .landing-page-container{
+        .upper{
+            .statistics-container{
+                margin-left: -7%;
+            }
+        }
+    }
+}

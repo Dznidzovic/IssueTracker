@@ -1,0 +1,307 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+* ul {
+  list-style: none;
+}
+
+.ticket-page-container {
+  display: flex;
+  flex-direction: column;
+  max-height: 100vh;
+  height: auto;
+  height: 200vh;
+  background: linear-gradient(to bottom, #6699CC 0%, #6699CC 35%, #F0F8FF 35%, #F0F8FF 120%);
+}
+.ticket-page-container .sidebar-section {
+  display: flex;
+  justify-content: center;
+  box-shadow: 0px 0px 0px 0.5px #888888;
+  width: 100%;
+  background-color: white;
+  height: 100%;
+}
+.ticket-page-container .sidebar-section .sidebar-container .sidebar-logo .logo-ul {
+  color: #6699CC;
+}
+.ticket-page-container .sidebar-section .sidebar-container .sidebar-logo .logo-ul li {
+  display: inline-block;
+}
+.ticket-page-container .sidebar-section .sidebar-container .sidebar-logo .logo-ul .bug-icon {
+  margin-top: 2em;
+  margin-left: 2em;
+  margin-right: 0.7em;
+}
+.ticket-page-container .sidebar-section .sidebar-container .sidebar-ul ul {
+  margin-left: 30%;
+}
+.ticket-page-container .sidebar-section .sidebar-container .sidebar-ul ul li {
+  font-size: 1em;
+  margin-top: 3em;
+  display: inline-block;
+  color: #707070;
+}
+.ticket-page-container .sidebar-section .sidebar-container .sidebar-ul ul li p {
+  margin-left: 1em;
+  font-size: 0.9em;
+}
+.ticket-page-container .sidebar-section .sidebar-container .sidebar-ul ul li:active {
+  color: black;
+}
+.ticket-page-container .sidebar-section .sidebar-container .sidebar-ul ul .sidebar1-li .icon {
+  color: #707070;
+}
+.ticket-page-container .sidebar-section .sidebar-container .sidebar-ul ul .sidebar2-li .icon {
+  color: #6699CC;
+}
+.ticket-page-container .sidebar-section .sidebar-container .sidebar-ul ul .sidebar3-li .icon {
+  color: #9e1b32;
+}
+.ticket-page-container .sidebar-section .sidebar-container button {
+  background-color: #C41E3A;
+  border: 0;
+  border-radius: 5px;
+  color: white;
+  padding: 0.5em 1.2em 0.5em 1.2em;
+  margin-top: 4em;
+  margin-left: 40%;
+}
+.ticket-page-container .sidebar-section .sidebar-container button:active {
+  background-color: white;
+  color: #C41E3A;
+}
+.ticket-page-container .upper .header-container {
+  display: flex;
+  align-items: flex-start;
+}
+.ticket-page-container .upper .header-container h1 {
+  margin-top: 2em;
+  color: white;
+  text-shadow: 0px 1px 1px black;
+}
+.ticket-page-container .upper .header-container .icon {
+  color: white;
+  margin-left: 1em;
+  font-size: 1.3em;
+  margin-top: 2.7em;
+  margin-right: 1em;
+}
+.ticket-page-container .upper .header-container .icon:active {
+  color: black;
+}
+.ticket-page-container .upper .tickets {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10rem;
+  display: flex;
+  min-width: 90%;
+  width: auto;
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color: white;
+  box-shadow: 0px 1px 1px 1px #DCDCDC;
+  min-height: 10rem;
+  height: auto;
+}
+.ticket-page-container .upper .tickets .div1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 1em;
+  padding-bottom: 0em;
+  display: flex;
+  max-height: 2em;
+  border-bottom: 1px solid #DCDCDC;
+}
+.ticket-page-container .upper .tickets .div1 h1 {
+  font-size: 1em;
+  padding-bottom: 1em;
+}
+.ticket-page-container .upper .tickets .div1 .search-input {
+  border-radius: 5px;
+  border: 1px solid #DCDCDC;
+  color: black;
+  padding-left: 1em;
+  font-size: 0.9em;
+  width: 30%;
+}
+.ticket-page-container .upper .tickets .div1 .search-input::-moz-placeholder {
+  color: gray;
+}
+.ticket-page-container .upper .tickets .div1 .search-input:-ms-input-placeholder {
+  color: gray;
+}
+.ticket-page-container .upper .tickets .div1 .search-input::placeholder {
+  color: gray;
+}
+.ticket-page-container .upper .tickets .div1 .search-input:focus {
+  outline: none;
+}
+.ticket-page-container .upper .tickets .div2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-left: 1em;
+  padding-right: 1em;
+  border-bottom: 1px solid #DCDCDC;
+  padding-bottom: 0.5em;
+  padding-top: 0.5em;
+  background-color: #F5F5F5;
+}
+.ticket-page-container .upper .tickets .div2 p {
+  font-size: 0.8em;
+  color: #707070;
+}
+.ticket-page-container .upper .tickets .div2 .last-paragraph {
+  margin-right: 2em;
+}
+.ticket-page-container .upper .tickets .div3 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-bottom: 1em;
+  padding-top: 1em;
+  border-bottom: 1px solid #DCDCDC;
+}
+.ticket-page-container .upper .tickets .div3 p {
+  font-size: 0.8em;
+  color: #707070;
+}
+.ticket-page-container .upper .tickets .div3 .first-paragraph {
+  color: #6699CC;
+  width: 5rem;
+  cursor: pointer;
+}
+.ticket-page-container .upper .tickets .div3 .middle-paragraph {
+  width: 5rem;
+}
+.ticket-page-container .upper .tickets .div3 .first-paragraph:active {
+  color: black;
+}
+.ticket-page-container .upper .tickets .div3 .author-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.ticket-page-container .upper .tickets .div3 .author-container .icon {
+  color: #707070;
+  margin-left: 1em;
+  transform: rotate(90deg);
+  font-size: 0.8em;
+  margin-top: 0.2em;
+}
+.ticket-page-container .upper .tickets .div3 .author-container .icon:active {
+  color: black;
+}
+.ticket-page-container .upper .tickets .div4 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+.ticket-page-container .upper .tickets .div4 .div4-arrow-left {
+  font-size: 0.5em;
+  padding: 0.8em;
+  border: 1px solid #D3D3D3;
+  border-radius: 100%;
+  color: black;
+  margin-left: 1em;
+}
+.ticket-page-container .upper .tickets .div4 .div4-arrow-left:active {
+  cursor: pointer;
+  color: #8594e4;
+  background-color: white;
+}
+.ticket-page-container .upper .tickets .div4 .div4-arrow-right {
+  font-size: 0.5em;
+  padding: 0.8em;
+  border: 1px solid #D3D3D3;
+  border-radius: 100%;
+  color: black;
+  margin-right: 1em;
+}
+.ticket-page-container .upper .tickets .div4 .div4-arrow-right:active {
+  cursor: pointer;
+  color: #8594e4;
+  background-color: white;
+}
+.ticket-page-container .upper .tickets .div4 .arrow-enable {
+  pointer-events: all;
+  color: black;
+}
+.ticket-page-container .upper .tickets .div4 .arrow-disable {
+  pointer-events: none;
+  color: #707070;
+}
+
+@media only screen and (min-width: 480px) {
+  .ticket-page-container .sidebar-section {
+    padding-right: 1em;
+  }
+  .ticket-page-container .sidebar-section .sidebar-ul ul li:hover {
+    color: black;
+    cursor: pointer;
+  }
+  .ticket-page-container .sidebar-section button:hover {
+    cursor: pointer;
+    color: #9e1b32;
+    background-color: white;
+  }
+  .ticket-page-container .upper .header-container .icon:hover {
+    cursor: pointer;
+  }
+  .ticket-page-container .upper .tickets .div3 .first-paragraph {
+    width: 9rem;
+  }
+  .ticket-page-container .upper .tickets .div3 .middle-paragraph {
+    width: 9rem;
+  }
+  .ticket-page-container .upper .tickets .div3 .icon:hover {
+    cursor: pointer;
+    color: black;
+  }
+  .ticket-page-container .upper .tickets .div3:hover {
+    background-color: #7CB9E8;
+  }
+  .ticket-page-container .upper .tickets .div3:hover p {
+    color: white;
+  }
+  .ticket-page-container .upper .tickets .div3:hover .icon {
+    color: white;
+  }
+}
+@media only screen and (min-width: 1100px) {
+  .ticket-page-container {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+  }
+  .ticket-page-container .sidebar-section {
+    min-height: 100vh;
+    height: auto;
+    width: 15rem;
+  }
+  .ticket-page-container .sidebar-section .sidebar-container .sidebar-ul ul {
+    margin-left: 2em;
+  }
+  .ticket-page-container .sidebar-section .sidebar-container button {
+    margin-left: 5em;
+  }
+  .ticket-page-container .upper {
+    width: 80%;
+  }
+  .ticket-page-container .upper .header-container {
+    margin-left: 2em;
+  }
+  .ticket-page-container .upper .tickets .div4 .div4-arrow-left:hover {
+    cursor: pointer;
+  }
+  .ticket-page-container .upper .tickets .div4 .div4-arrow-right:hover {
+    cursor: pointer;
+  }
+}/*# sourceMappingURL=tickets.css.map */

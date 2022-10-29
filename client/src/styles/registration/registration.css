@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins";
+}
+
+.registration-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #003153;
+}
+.registration-section h1 {
+  position: absolute;
+  z-index: 999;
+  margin-bottom: 35rem;
+  color: #fff;
+  font-size: 1.5em;
+}
+.registration-section .registration-container {
+  position: absolute;
+  z-index: 10;
+  min-width: 17rem;
+  width: auto;
+  min-height: 25rem;
+  height: auto;
+  background-color: white;
+  border-radius: 0.3em;
+}
+.registration-section .registration-container p {
+  margin-top: 1.5em;
+  color: #003153;
+  margin-left: 38%;
+}
+.registration-section .registration-container form {
+  margin-top: 1em;
+  margin-left: 1.5em;
+}
+.registration-section .registration-container .login-paragraph {
+  display: inline-block;
+  color: #003153;
+  white-space: nowrap;
+  margin-top: 1em;
+  font-size: 0.7rem;
+  margin-left: 15%;
+  padding-bottom: -10px;
+}
+.registration-section .registration-container input {
+  font-size: 0.7em;
+  margin-top: 15px;
+  border-bottom: 1px solid #DCDCDC;
+  border-top: 2px solid white;
+  border-left: 0.2px solid #DCDCDC;
+  border-right: 0.2px solid #DCDCDC;
+  border-radius: 5px;
+  width: 80%;
+  outline: none;
+  color: #003153;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 2.5em;
+}
+.registration-section .registration-container input::-moz-placeholder {
+  color: #888888;
+  font-size: 0.8em;
+}
+.registration-section .registration-container input:-ms-input-placeholder {
+  color: #888888;
+  font-size: 0.8em;
+}
+.registration-section .registration-container input::placeholder {
+  color: #888888;
+  font-size: 0.8em;
+}
+.registration-section .registration-container .form-submit input {
+  background-color: #003153;
+  padding: 2px;
+  margin-top: 2em;
+  margin-left: 1.5em;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 0.8em;
+}
+.registration-section .registration-container .form-submit input:hover {
+  background-color: #fff;
+  color: #003153;
+}
+.registration-section .registration-container .icon {
+  color: gray;
+  position: absolute;
+  padding-top: 1.2em;
+  padding-left: 0.4em;
+}
+.registration-section .registration-container .error-paragraph {
+  width: 16rem;
+  color: #BA0021;
+  font-size: 0.7em;
+  margin: 0;
+  margin-bottom: -1em;
+  margin-left: 0.5em;
+}
+.registration-section .footer {
+  color: #778899;
+  position: absolute;
+  top: 90%;
+  font-size: 0.8em;
+}
+.registration-section .footer span {
+  color: #6F00FF;
+}
+.registration-section h3 {
+  width: 16rem;
+  color: green;
+  margin-top: 30px;
+  font-size: 0.7em;
+}
+
+.registration-section:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 40%;
+  background: linear-gradient(-45deg, #003153, #0066b2, #6CB4EE, #6CB4EE);
+  border-radius: 0 0 50% 50%/0 0 20% 20%;
+}
+
+@media only screen and (max-height: 600px) {
+  .registration-section {
+    height: 150vh;
+  }
+}
+@media only screen and (max-height: 400px) {
+  .registration-section {
+    height: 200vh;
+  }
+}
+@media only screen and (min-height: 950px) {
+  .registration-section .registration-container {
+    max-height: 28rem;
+  }
+}
+@media only screen and (min-height: 1050px) {
+  .registration-section h1 {
+    margin-bottom: 50rem;
+  }
+}/*# sourceMappingURL=registration.css.map */

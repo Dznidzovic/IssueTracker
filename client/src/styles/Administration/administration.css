@@ -1,0 +1,301 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+* ul {
+  list-style: none;
+}
+
+.administrator-page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  height: auto;
+  width: auto;
+  min-width: 100%;
+  background: linear-gradient(to bottom, #6699CC 0%, #6699CC 35%, #F0F8FF 35%, #F0F8FF 120%);
+}
+.administrator-page-container .sidebar-section {
+  display: flex;
+  justify-content: center;
+  box-shadow: 0px 0px 0px 0.5px #888888;
+  width: 100%;
+  background-color: white;
+  height: 100vh;
+}
+.administrator-page-container .sidebar-section .sidebar-container .sidebar-logo .logo-ul {
+  color: #6699CC;
+}
+.administrator-page-container .sidebar-section .sidebar-container .sidebar-logo .logo-ul li {
+  display: inline-block;
+}
+.administrator-page-container .sidebar-section .sidebar-container .sidebar-logo .logo-ul .bug-icon {
+  margin-top: 2em;
+  margin-left: 2em;
+  margin-right: 0.7em;
+}
+.administrator-page-container .sidebar-section .sidebar-container .sidebar-ul ul {
+  margin-left: 30%;
+}
+.administrator-page-container .sidebar-section .sidebar-container .sidebar-ul ul li {
+  font-size: 1em;
+  margin-top: 3em;
+  display: inline-block;
+  color: #707070;
+}
+.administrator-page-container .sidebar-section .sidebar-container .sidebar-ul ul li p {
+  margin-left: 1em;
+  font-size: 0.9em;
+}
+.administrator-page-container .sidebar-section .sidebar-container .sidebar-ul ul li:active {
+  color: black;
+}
+.administrator-page-container .sidebar-section .sidebar-container .sidebar-ul ul .sidebar1-li .icon {
+  color: #707070;
+}
+.administrator-page-container .sidebar-section .sidebar-container .sidebar-ul ul .sidebar2-li .icon {
+  color: #6699CC;
+}
+.administrator-page-container .sidebar-section .sidebar-container .sidebar-ul ul .sidebar3-li .icon {
+  color: #9e1b32;
+}
+.administrator-page-container .sidebar-section .sidebar-container button {
+  background-color: #C41E3A;
+  border: 0;
+  border-radius: 5px;
+  color: white;
+  padding: 0.5em 1.2em 0.5em 1.2em;
+  margin-top: 4em;
+  margin-left: 40%;
+}
+.administrator-page-container .sidebar-section .sidebar-container button:active {
+  background-color: white;
+  color: #C41E3A;
+}
+.administrator-page-container .upper .header-container {
+  display: flex;
+  align-items: flex-start;
+}
+.administrator-page-container .upper .header-container h1 {
+  margin-top: 2em;
+  color: white;
+  text-shadow: 0px 1px 1px black;
+}
+.administrator-page-container .upper .header-container .icon {
+  color: white;
+  margin-left: 1em;
+  font-size: 1.3em;
+  margin-top: 2.7em;
+  margin-right: 1em;
+}
+.administrator-page-container .upper .header-container .icon:hover {
+  cursor: pointer;
+}
+.administrator-page-container .upper .header-container .icon:active {
+  color: black;
+}
+.administrator-page-container .upper .devs-container {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  padding-bottom: 1em;
+  height: auto;
+  min-width: 80%;
+  max-width: 90%;
+  width: auto;
+  background-color: white;
+  box-shadow: 0px 1px 1px 1px #DCDCDC;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 6em;
+  padding: 1em;
+  padding-bottom: 2em;
+}
+.administrator-page-container .upper .devs-container .div1 {
+  width: 100%;
+  border-bottom: 1px solid #DCDCDC;
+  margin-bottom: 2em;
+}
+.administrator-page-container .upper .devs-container .div1 h1 {
+  font-size: 1em;
+}
+.administrator-page-container .upper .devs-container .div2 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background-color: white;
+  border: 1px solid #DCDCDC;
+  height: 2.5em;
+}
+.administrator-page-container .upper .devs-container .div2 p {
+  padding-left: 1em;
+  color: #707070;
+}
+.administrator-page-container .upper .edit-user-container {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: white;
+  box-shadow: 0px 1px 1px 1px #DCDCDC;
+  min-height: 20rem;
+  width: auto;
+  min-width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 5em;
+  padding-bottom: 2em;
+  margin-bottom: 5em;
+}
+.administrator-page-container .upper .edit-user-container .edit-div1 {
+  width: 100%;
+  border-bottom: 1px solid #DCDCDC;
+}
+.administrator-page-container .upper .edit-user-container .edit-div1 h1 {
+  font-size: 1em;
+  padding-left: 1em;
+  padding-top: 1em;
+}
+.administrator-page-container .upper .edit-user-container .edit-div2 h1 {
+  font-size: 1em;
+  padding-left: 1em;
+  padding-top: 1em;
+  color: #6699CC;
+}
+.administrator-page-container .upper .edit-user-container .edit-div3 {
+  margin-top: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.administrator-page-container .upper .edit-user-container .edit-div3 div {
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+}
+.administrator-page-container .upper .edit-user-container .edit-div3 div label {
+  color: #707070;
+  font-size: 0.9em;
+}
+.administrator-page-container .upper .edit-user-container .edit-div3 div input {
+  padding: 0.2em;
+  border-radius: 2px;
+  width: 80%;
+  border: 1px solid #DCDCDC;
+}
+.administrator-page-container .upper .edit-user-container .edit-div3 div input::-moz-placeholder {
+  color: #D3D3D3;
+}
+.administrator-page-container .upper .edit-user-container .edit-div3 div input:-ms-input-placeholder {
+  color: #D3D3D3;
+}
+.administrator-page-container .upper .edit-user-container .edit-div3 div input::placeholder {
+  color: #D3D3D3;
+}
+.administrator-page-container .upper .edit-user-container .edit-div3 div input:focus {
+  outline: none;
+}
+.administrator-page-container .upper .edit-user-container .edit-div3 div select {
+  width: 80%;
+  border: 1px solid #D3D3D3;
+  padding: 0.15em;
+}
+.administrator-page-container .upper .edit-user-container .edit-div3 div select .option {
+  color: #707070;
+}
+.administrator-page-container .upper .edit-user-container .edit-div3 div select:focus {
+  outline: none;
+}
+.administrator-page-container .upper .edit-user-container .edit-div3 div .email {
+  width: 100%;
+}
+.administrator-page-container .upper .edit-user-container .edit-div4 {
+  width: 90%;
+  margin-top: 2em;
+  padding-left: 1em;
+  padding-right: 1em;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.administrator-page-container .upper .edit-user-container .edit-div4 .button-1 {
+  padding: 0.4em 1em 0.4em 1em;
+  border-radius: 2px;
+  border: 0;
+  background-color: #32de84;
+  color: white;
+}
+.administrator-page-container .upper .edit-user-container .edit-div4 .button-1:active {
+  color: #32de84;
+  background-color: white;
+}
+.administrator-page-container .upper .edit-user-container .edit-div4 .button-2 {
+  padding: 0.4em 1em 0.4em 1em;
+  border-radius: 2px;
+  border: 0;
+  background-color: #C41E3A;
+  color: white;
+}
+.administrator-page-container .upper .edit-user-container .edit-div4 .button-2:active {
+  color: #C41E3A;
+  background-color: white;
+}
+
+@media only screen and (min-width: 480px) {
+  .administrator-page-container .sidebar-section {
+    padding-right: 1em;
+  }
+  .administrator-page-container .sidebar-section .sidebar-ul ul li:hover {
+    color: black;
+    cursor: pointer;
+  }
+  .administrator-page-container .sidebar-section button:hover {
+    cursor: pointer;
+    color: #9e1b32;
+    background-color: white;
+  }
+  .administrator-page-container .upper .devs-container .div2:hover {
+    cursor: pointer;
+    background-color: #7CB9E8;
+  }
+  .administrator-page-container .upper .devs-container .div2:hover p {
+    color: white;
+  }
+}
+@media only screen and (min-width: 1100px) {
+  .administrator-page-container {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+  }
+  .administrator-page-container .sidebar-section {
+    min-height: 100vh;
+    height: auto;
+    width: 15rem;
+  }
+  .administrator-page-container .sidebar-section .sidebar-container .sidebar-ul ul {
+    margin-left: 2em;
+  }
+  .administrator-page-container .sidebar-section .sidebar-container button {
+    margin-left: 5em;
+  }
+  .administrator-page-container .upper {
+    width: 80%;
+  }
+  .administrator-page-container .upper .header-container {
+    margin-left: 2em;
+  }
+  .administrator-page-container .upper .edit-div4 .button-1:hover {
+    cursor: pointer;
+    color: #32de84;
+    background-color: white;
+  }
+  .administrator-page-container .upper .edit-div4 .button-2:hover {
+    cursor: pointer;
+    color: #C41E3A;
+    background-color: white;
+  }
+}/*# sourceMappingURL=administration.css.map */

@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+}
+
+
+.new-ticket-section{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 10rem;
+    left: 40%;
+    width: 20rem;
+    .new-ticket-container{
+       
+       
+        width: auto;
+        background-color: white;
+        box-shadow: 0px 1px 1px 1px #DCDCDC;
+        padding:1em;
+        .div1{
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            h1{
+                font-size: 0.9em;
+            }
+            .exit-btn{
+                margin-top: 0.2em;
+                color: #707070;
+            }
+            .exit-btn:hover{
+                cursor: pointer;
+                color: black;
+            }
+        }
+        .error-message{
+         
+            font-size: 0.9em;
+            color: red;
+            margin-bottom: -1em;
+        }
+        .div2{
+            margin-top: 1em;
+            .developers{
+                padding: 0.5em;
+                margin-top: 0.5em;
+                overflow: auto;
+                height: 4rem;
+                border: 1px solid #DCDCDC;
+                p{
+                    margin-top: 0.5em;
+                    color: #707070;
+                    font-size: 0.9em;
+                }
+                p:hover{
+                    cursor: pointer;
+                }
+            }
+
+        }
+        .div3{
+            margin-top: 3em;
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            
+            select{
+                border-radius: 2px;
+                margin-right: 1em;
+                border: 1px solid #DCDCDC;
+                option{
+                    color: #707070;
+                    border: 1px solid #DCDCDC;
+                }
+            }
+            select:focus{
+                outline: none;
+                
+            }
+            
+        }
+        .div4{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 1em;
+            input{
+                border: 1px solid #DCDCDC;
+                padding-top: 0.1em;
+                padding-bottom: 0.1em;
+                padding-left: 0.5em;
+                border-radius: 2px;
+                font-size: 0.9em;
+            }
+            input:focus{
+                outline: none;
+            }
+            
+        }
+        .div5{
+            margin-top: 1em;
+            input{
+                margin-top: 0.5em;
+                border: 1px solid #DCDCDC;
+                padding-top: 0.1em;
+                padding-bottom: 0.1em;
+                padding-left: 0.5em;
+                border-radius: 2px;
+                font-size: 0.9em;
+                width: 90%;
+            }
+            input:focus{
+                outline: none;
+            }
+            
+        }
+        .submit-btn{
+            margin-top: 3em;
+            padding: 0.5em 1.5em 0.5em 1.5em;
+            border: 0;
+            color: white;
+            background-color:#32de84;
+            border-radius: 2px;
+        }
+        .submit-btn:hover{
+            cursor: pointer;
+            color: #32de84;
+            background-color: white;
+        }
+    }
+}
+@media only screen and (min-width:"300px"){
+    .new-ticket-section{
+        .div1{
+           
+        }
+        .submit-btn:focus{
+            color: #32de84;
+            background-color: white;
+        }
+        left: 5%;
+    }
+}
+@media only screen and (min-width:"380px"){
+    .new-ticket-section{
+        left: 10%;
+    }
+}
+@media only screen and (min-width:"500px"){
+    .new-ticket-section{
+        left: 15%;
+    }
+}
+@media only screen and (min-width:"750px"){
+    .new-ticket-section{
+        left: 20%;
+    }
+}
+@media only screen and (min-width:"900px"){
+    .new-ticket-section{
+        left: 43%;
+    }
+}
+

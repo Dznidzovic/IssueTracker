@@ -1,0 +1,176 @@
+POST http://localhost:4000/register HTTP/1.1
+Content-Type: application/json
+
+{
+    "firstName":"Stefan",
+    "secondName":"Nidzovic",
+    "phoneNumber":"0628358158",
+    "email":"kefiwow@gmail.com",
+    "password":"Alhemijak123"
+}
+
+###
+POST http://localhost:4000/login
+Content-Type: application/json
+
+{
+    "email":"stefannidzovic3@gmail.com",
+    "password":"Stefan123"
+}
+
+###
+POST http://localhost:4000/password-reset
+Content-Type: application/json
+
+{
+    "email":"stefannidzovic3@gmail.com"
+}
+
+###
+POST http://localhost:4000/6351b78ba326604a4670d4b8/password-reset/1dc411775cac7ed0b552cdea76d27a8e9caad221734b2c8277c51773b8c7ad1c
+Content-Type: application/json
+
+{
+    "password":"NoviPass123"
+}
+###
+GET http://localhost:4000/6351b78ba326604a4670d4b8/verify/d9754edf5d8a11c40a09746c6d7e642cc57d5d90a47f12b26fb6c933af27944d HTTP/1.1
+
+###
+POST http://localhost:4000/emailexists
+Content-Type: application/json
+
+{
+    "email":"bugtrakeradmin@gmail.com"
+}
+###
+POST http://localhost:4000/userexists
+Content-Type: application/json
+
+{
+    "id":"6347219e813c5cf1c8b"
+}
+###
+POST http://localhost:4000/token-exists
+Content-Type: application/json
+
+{
+    "token":"4a2e4d1450fa23fc89f6c510c24adc3553e70f2805fc7d221d5827bb517cb6b"
+}
+
+###
+GET http://localhost:4000/auth-endpoint
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MzI3MTU5M2RlYjc2NTcwYmJkNjhkODUiLCJlbWFpbCI6ImtlZml3b3dAZ21haWwuY29tIiwiaWF0IjoxNjY0MTE3OTY2fQ.OwA29354cnG3aKUgWGtFpEWgqtljYjaVuP1P6vxQfTg
+
+
+
+
+###
+GET http://localhost:4000/dashboard/get-tickets
+
+###
+GET http://localhost:4000/dashboard/get-projects
+
+###
+DELETE http://localhost:4000/dashboard/delete-project HTTP/1.1
+Content-Type: application/json
+
+{
+    "id":""
+}
+
+###
+POST http://localhost:4000/dashboard/new-project HTTP/1.1
+Content-Type: application/json
+
+{
+    "projectName":"Bug Tracker",
+    "projectDescription":"This is a simple bug tracker",
+    "contributors":["Stefan Nidzovic,Luke The Man"]
+}
+
+###
+POST http://localhost:4000/dashboard/project-details/get-user HTTP/1.1
+Content-type: application/json
+{
+    
+}
+###
+POST http://localhost:4000/getuser
+Content-Type: application/json
+
+{
+    "email":"kefiwow3@gmail.com"
+}
+
+###
+GET http://localhost:4000/dashboard/get-users HTTP/1.1
+###
+POST http://localhost:4000/dashboard/project-details/get-project
+Content-Type:application/json
+
+{
+    "currentProjectName":"Bug tracker"
+}
+###
+POST http://localhost:4000/dashboard/project-details/get-users HTTP/1.1
+Content-Type: application/json
+
+{
+    "contributors":["Stefan Nidzovic","Sanja Nidzovic"]
+}
+
+###
+POST http://localhost:4000/dashboard/project-details/get-users-for-tickets HTTP/1.1
+Content-Type: application/json
+
+{
+    "currentProjectName":"Whatsapp error"
+}
+
+### 
+POST http://localhost:4000/dashboard/project-details/create-ticket HTTP/1.1
+Content-Type: application/json
+
+{
+    "projectName":"Bug tracker",
+    "ticketTitle":"first deploy",
+    "ticketAuthor":"Admin Admin",
+    "ticketDescription":"This is first deploy",
+    "status":"Resolved",
+    "priority":"High",
+    "type":"feature",
+    "assignedDevs":["Admin Admin, Shakur Tupac"]
+
+}
+###
+POST http://localhost:4000/dashboard/ticket-delete HTTP/1.1
+Content-Type: application/json
+
+{
+    "ticket":"First Ticket"
+}
+###
+POST http://localhost:4000/dashboard/create-comment HTTP/1.1
+Content-Type: application/json
+
+{   "currentProjectName":"Whatsapp error",
+    "author":"Admin Admin",
+    "text":"Hey man i need help with this Hey man i need help with this"
+}
+###
+POST http://localhost:4000/dashboard/get-comments
+Content-Type: application/json
+
+{
+    "currentProjectName":"Whatsapp error"
+}
+
+### 
+PUT http://localhost:4000/dashboard/edit-ticket HTTP/1.1
+Content-Type: application/json
+
+{
+    "currentTicket":"Ticket for Stefan",
+    "ticketAuthor":"Stefan Nidzovic"
+}

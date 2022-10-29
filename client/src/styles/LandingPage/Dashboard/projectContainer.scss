@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    ul{
+        list-style: none;
+    }
+    
+}
+.projects-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+    
+    .projects-container{
+        background-color: white;
+        box-shadow: 0px 1px 1px 1px #DCDCDC;
+        width: 98%;
+        
+        text-align: center;
+        min-height: 25vh;
+        height: auto;
+        .add-new-projects-paragraph{
+            color: #707070;
+            margin-top: 1em;
+        }
+        .div1{
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            border-bottom: 1px solid #D3D3D3 ;
+            padding-bottom: 0.5em;
+            padding: 1em;
+            h1{
+                font-size: 1em;
+            }
+            .search-input{
+                border: 1px solid #DCDCDC;
+                padding: 0.3em 1em 0.3em 1em;
+                width: 15rem;
+                border-radius: 5px;
+
+            }
+            .search-input::placeholder{
+                padding-left: 1em;
+                color: #707070;
+            }
+            .search-input:focus{
+                outline: none;
+            }
+            button{
+                
+                border: 0;
+                color: white;
+                padding: 0.3em 0.7em 0.3em 0.7em;
+                border-radius: 5px;
+                background-color: #8594e4; 
+            }
+            button:hover{
+                cursor: pointer;
+                color: #8594e4;
+                background-color: white;
+            }
+        }
+        .div2{
+            display:flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            
+            color: #707070;
+            border-bottom: 1px solid #D3D3D3;
+            font-size: 0.8em;
+            background-color:		#F0F0F0;
+            padding: 0.5em;
+            padding-left: 1em;
+            padding-right: 1em;   
+        }
+        .div3{
+            display:flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            color: #707070;
+            border-bottom: 1px solid #D3D3D3;
+            font-size: 0.8em;
+            padding: 1em;
+            padding-left: 1em;
+            padding-right: 1em;
+            min-height: 3rem;
+            height: auto;
+            .name{
+                color: #00308F;
+            }
+            .name:hover{
+                cursor: pointer;
+                color: black;
+            }
+            .desc{
+
+                margin-left: 1em;
+            }
+            .name-container{
+                display: flex;
+                align-items: flex-start;
+                justify-content: space-between;
+                .trash-btn{
+                    margin-left: 1em;
+                    margin-top: 0.2em;
+                }
+                .trash-btn:hover{
+                    cursor: pointer;
+                    color: black;
+                }
+            }
+            
+        }
+        .div4{
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            padding-top: 1em;
+            padding-bottom: 1em;
+            .div4-arrow-left{
+                font-size: 0.7em;
+                padding: 0.8em;
+                border: 1px solid #D3D3D3;
+                border-radius: 100%;
+                color: black;
+                margin-left: 1em;
+            }
+            .div4-arrow-left:hover{
+                cursor: pointer;
+                color: #8594e4;
+                background-color: white;
+            }
+            .div4-arrow-right{
+                font-size: 0.7em;
+                padding: 0.8em;
+                border: 1px solid #D3D3D3;
+                border-radius: 100%;
+                color: black;
+                margin-right: 1em;
+            }
+            .div4-arrow-right:hover{
+                cursor: pointer;
+                color: #8594e4;
+                background-color: white;
+            }
+            .div4-arrow-enable{
+                pointer-events: "";
+                color: black;
+            }
+            .div4-arrow-disable{
+                color: #707070;
+                pointer-events:"none"
+            }
+
+        }
+    }
+
+    
+}
+@media  only screen and (min-width:"1300px") {
+    .projects-section{
+        margin-left: -1.5%;
+    }
+    
+}
+@media  only screen and (min-width:"1500px") {
+    .projects-section{
+        margin-left: -3%;
+    }
+}
+@media  only screen and (min-width:"1700px") {
+    
+    .projects-section{
+        margin-left: -4%;
+    }
+}

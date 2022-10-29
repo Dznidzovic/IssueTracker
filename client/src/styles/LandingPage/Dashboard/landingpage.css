@@ -1,0 +1,333 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+* ul {
+  list-style: none;
+}
+
+.landing-page-container {
+  height: 200vh;
+  background: linear-gradient(to bottom, #6699CC 0%, #6699CC 15%, #F0F8FF 15%, #F0F8FF 120%);
+}
+.landing-page-container .sidebar-section {
+  display: flex;
+  justify-content: center;
+  box-shadow: 0px 0px 0px 0.5px #888888;
+  width: 100%;
+  background-color: white;
+  height: 100%;
+}
+.landing-page-container .sidebar-section .sidebar-container .sidebar-logo .logo-ul {
+  color: #6699CC;
+}
+.landing-page-container .sidebar-section .sidebar-container .sidebar-logo .logo-ul li {
+  display: inline-block;
+}
+.landing-page-container .sidebar-section .sidebar-container .sidebar-logo .logo-ul .bug-icon {
+  margin-top: 2em;
+  margin-left: 2em;
+  margin-right: 0.7em;
+}
+.landing-page-container .sidebar-section .sidebar-container .sidebar-ul ul {
+  margin-left: 30%;
+}
+.landing-page-container .sidebar-section .sidebar-container .sidebar-ul ul li {
+  font-size: 1em;
+  margin-top: 3em;
+  display: inline-block;
+  color: #707070;
+}
+.landing-page-container .sidebar-section .sidebar-container .sidebar-ul ul li p {
+  margin-left: 1em;
+  font-size: 0.9em;
+}
+.landing-page-container .sidebar-section .sidebar-container .sidebar-ul ul li:active {
+  color: black;
+}
+.landing-page-container .sidebar-section .sidebar-container .sidebar-ul ul .sidebar1-li .icon {
+  color: #707070;
+}
+.landing-page-container .sidebar-section .sidebar-container .sidebar-ul ul .sidebar2-li .icon {
+  color: #6699CC;
+}
+.landing-page-container .sidebar-section .sidebar-container .sidebar-ul ul .sidebar3-li .icon {
+  color: #9e1b32;
+}
+.landing-page-container .sidebar-section .sidebar-container button {
+  background-color: #C41E3A;
+  border: 0;
+  border-radius: 5px;
+  color: white;
+  padding: 0.5em 1.2em 0.5em 1.2em;
+  margin-top: 4em;
+  margin-left: 40%;
+}
+.landing-page-container .sidebar-section .sidebar-container button:active {
+  background-color: white;
+  color: #A52A2A;
+}
+.landing-page-container .upper .upper-header {
+  color: white;
+  margin-left: 1.5em;
+}
+.landing-page-container .upper .upper-header .dashboard-h1:active {
+  color: black;
+}
+.landing-page-container .upper .upper-header li {
+  margin-top: 1.5em;
+  margin-right: 1em;
+  display: inline-block;
+}
+.landing-page-container .upper .upper-header .upper-header-menu:active {
+  color: black;
+}
+.landing-page-container .upper .upper-header .upper-header-menu:hover {
+  cursor: pointer;
+  color: black;
+}
+.landing-page-container .upper .statistics-container {
+  margin-top: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.landing-page-container .upper .statistics-container .stat-container {
+  margin-top: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-width: 80%;
+  width: auto;
+  height: auto;
+  background-color: white;
+  box-shadow: 0px 1px 1px 1px #DCDCDC;
+}
+.landing-page-container .upper .statistics-container .stat-container div h1 {
+  margin-top: 1em;
+  margin-left: -5em;
+  font-size: 1em;
+}
+
+.new-project {
+  position: fixed;
+  top: 5rem;
+  left: 10%;
+  min-height: 30rem;
+  height: auto;
+  width: 80%;
+  max-width: 20rem;
+  background-color: white;
+  z-index: 5999;
+  border-radius: 5px;
+  box-shadow: 0px 1px 0px 1px #888888;
+  padding-bottom: 1em;
+}
+.new-project .header-ul h1 {
+  color: #28282B;
+  float: left;
+  margin-top: 2em;
+  margin-left: 1em;
+  font-size: 0.8em;
+}
+.new-project .header-ul .header-icon {
+  float: right;
+  color: #707070;
+  font-size: 1.2em;
+  margin-top: 1.2em;
+  margin-right: 1em;
+}
+.new-project .header-ul .header-icon:active {
+  color: black;
+}
+.new-project .header-ul .header-icon:hover {
+  cursor: pointer;
+  color: black;
+}
+.new-project form {
+  float: left;
+  margin-top: 1em;
+}
+.new-project form div {
+  margin-left: 1em;
+  margin-top: 5%;
+}
+.new-project form div label {
+  font-size: 1em;
+}
+.new-project form div input {
+  margin-top: 1em;
+  padding-top: 0.3em;
+  padding-bottom: 0.3em;
+  color: #28282B;
+  padding-left: 0.8em;
+  width: 90%;
+  border: 1px solid #DCDCDC;
+  outline: none;
+}
+.new-project form div input:active {
+  outline: none;
+}
+.new-project form div input::-moz-placeholder {
+  font-size: 1em;
+  padding-left: 0.8em;
+  color: #707070;
+}
+.new-project form div input:-ms-input-placeholder {
+  font-size: 1em;
+  padding-left: 0.8em;
+  color: #707070;
+}
+.new-project form div input::placeholder {
+  font-size: 1em;
+  padding-left: 0.8em;
+  color: #707070;
+}
+.new-project form .add-new-team-members div {
+  border: 1px solid #DCDCDC;
+  margin-left: 0em;
+  height: 70px;
+  width: 90%;
+  padding: 0.5em;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  overflow: auto;
+}
+.new-project form .add-new-team-members div p {
+  color: #707070;
+  overflow: auto;
+  font-size: 0.8em;
+  margin-top: 1em;
+}
+.new-project form .add-new-team-members div .first-paragraph {
+  margin-top: 1em;
+}
+.new-project .new-project-submit-btn {
+  margin-top: 5rem;
+  margin-left: 1em;
+  float: left;
+  border-radius: 5px;
+  color: white;
+  background-color: #32de84;
+  opacity: 0.8;
+  padding: 0.5em 1em 0.5em 1em;
+  border: 0;
+}
+.new-project .new-project-submit-btn:active {
+  color: #32de84;
+  background-color: white;
+}
+
+@media only screen and (min-width: 480px) {
+  .landing-page-container .upper .dashboard-h1:hover {
+    cursor: pointer;
+    color: black;
+  }
+  .landing-page-container .sidebar-section {
+    padding-right: 1em;
+  }
+  .landing-page-container .sidebar-section .sidebar-ul ul li:hover {
+    color: black;
+    cursor: pointer;
+  }
+  .landing-page-container .sidebar-section button:hover {
+    cursor: pointer;
+    color: #9e1b32;
+    background-color: white;
+  }
+  .landing-page-container .new-project {
+    left: 20%;
+  }
+  .landing-page-container .new-project .new-project-submit-btn:hover {
+    cursor: pointer;
+    background-color: white;
+    color: #32de84;
+  }
+  .landing-page-container .new-project form div:hover {
+    cursor: pointer;
+  }
+}
+@media only screen and (min-width: 550px) {
+  .landing-page-container .new-project {
+    left: 25%;
+  }
+}
+@media only screen and (min-width: 700px) {
+  .landing-page-container .new-project {
+    left: 40%;
+  }
+}
+@media only screen and (min-width: 1100px) {
+  .landing-page-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: auto;
+  }
+  .landing-page-container .sidebar-section {
+    min-height: 100vh;
+    height: auto;
+    width: 15rem;
+  }
+  .landing-page-container .sidebar-section .sidebar-container .sidebar-ul ul {
+    margin-left: 2em;
+  }
+  .landing-page-container .sidebar-section .sidebar-container button {
+    margin-left: 5em;
+  }
+  .landing-page-container .upper {
+    width: 80%;
+  }
+  .landing-page-container .upper .dashboard-h1 {
+    margin-left: 0em;
+  }
+  .landing-page-container .upper .statistics-container {
+    margin-top: 0em;
+    margin-right: 1%;
+    margin-left: 1%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  .landing-page-container .upper .statistics-container .stat-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-width: 30%;
+    width: auto;
+    height: auto;
+    background-color: white;
+    box-shadow: 0px 1px 1px 1px #DCDCDC;
+  }
+  .landing-page-container .upper .statistics-container .stat-container div h1 {
+    font-size: 1em;
+  }
+  .landing-page-container .new-project {
+    left: 45%;
+  }
+}
+@media only screen and (min-width: 1300px) {
+  .landing-page-container .upper .statistics-container {
+    margin-left: 0%;
+  }
+}
+@media only screen and (min-width: 1500px) {
+  .landing-page-container .upper .statistics-container {
+    margin-left: -1%;
+  }
+}
+@media only screen and (min-width: 1700px) {
+  .landing-page-container .upper .statistics-container {
+    margin-left: -3%;
+  }
+}
+@media only screen and (min-width: 2000px) {
+  .landing-page-container .upper .statistics-container {
+    margin-left: -7%;
+  }
+}/*# sourceMappingURL=landingpage.css.map */

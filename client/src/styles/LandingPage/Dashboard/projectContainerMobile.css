@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+* ul {
+  list-style: none;
+}
+
+.project-mobile-section {
+  margin-top: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.project-mobile-section .projects-container {
+  min-height: 25vh;
+  min-width: 90%;
+  max-width: 90%;
+  width: auto;
+  height: auto;
+  background-color: white;
+  padding: 1em;
+  box-shadow: 0px 1px 1px 1px #DCDCDC;
+  text-align: center;
+}
+.project-mobile-section .projects-container .add-new-projects-paragraph {
+  color: #707070;
+  margin-top: 1em;
+}
+.project-mobile-section .projects-container .div1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  border-bottom: 1px solid #D3D3D3;
+  padding-bottom: 0.5em;
+}
+.project-mobile-section .projects-container .div1 h1 {
+  font-size: 1em;
+}
+.project-mobile-section .projects-container .div1 .search-input {
+  width: 30%;
+  border: 1px solid #D3D3D3;
+  padding-left: 1em;
+  border-radius: 5px;
+  margin-top: 0.2em;
+}
+.project-mobile-section .projects-container .div1 .search-input::-moz-placeholder {
+  color: #707070;
+  padding-left: 0.3em;
+}
+.project-mobile-section .projects-container .div1 .search-input:-ms-input-placeholder {
+  color: #707070;
+  padding-left: 0.3em;
+}
+.project-mobile-section .projects-container .div1 .search-input::placeholder {
+  color: #707070;
+  padding-left: 0.3em;
+}
+.project-mobile-section .projects-container .div1 .search-input:focus {
+  outline: none;
+}
+.project-mobile-section .projects-container .div1 button {
+  border: 0;
+  color: white;
+  padding: 0.3em 0.7em 0.3em 0.7em;
+  border-radius: 5px;
+  background-color: #8594e4;
+}
+.project-mobile-section .projects-container .div1 button:active {
+  color: #8594e4;
+  background-color: white;
+}
+.project-mobile-section .projects-container .div2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  color: #707070;
+  border-bottom: 1px solid #D3D3D3;
+}
+.project-mobile-section .projects-container .div2 .name {
+  color: #00308F;
+}
+.project-mobile-section .projects-container .div2 .name:active {
+  color: black;
+  cursor: pointer;
+}
+.project-mobile-section .projects-container .div2 .desc-p {
+  color: #707070;
+  margin-left: 1em;
+}
+.project-mobile-section .projects-container .div2 .trash-btn:active {
+  color: black;
+}
+.project-mobile-section .projects-container .contributors-div {
+  border-bottom: 1px solid black;
+}
+.project-mobile-section .projects-container .div4 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+.project-mobile-section .projects-container .div4 .div4-arrow-left {
+  font-size: 0.7em;
+  padding: 0.8em;
+  border: 1px solid #D3D3D3;
+  border-radius: 100%;
+  color: black;
+  margin-left: 1em;
+}
+.project-mobile-section .projects-container .div4 .div4-arrow-left:active {
+  color: #8594e4;
+  background-color: white;
+}
+.project-mobile-section .projects-container .div4 .div4-arrow-right {
+  font-size: 0.7em;
+  padding: 0.8em;
+  border: 1px solid #D3D3D3;
+  border-radius: 100%;
+  color: black;
+  margin-right: 1em;
+}
+.project-mobile-section .projects-container .div4 .div4-arrow-right:active {
+  color: #8594e4;
+  background-color: white;
+}
+.project-mobile-section .projects-container .div4 .div4-arrow-enable {
+  pointer-events: "";
+}
+.project-mobile-section .projects-container .div4 .div4-arrow-disable {
+  color: #707070;
+  pointer-events: "none";
+}
+
+@media only screen and (min-width: 480px) {
+  .project-mobile-section .projects-container .name:hover {
+    color: black;
+    cursor: pointer;
+  }
+  .project-mobile-section .projects-container button:hover {
+    cursor: pointer;
+    color: #8594e4;
+    background-color: white;
+  }
+  .project-mobile-section .projects-container .div4-arrow-left:hover {
+    color: #8594e4;
+    cursor: pointer;
+  }
+  .project-mobile-section .projects-container .div4-arrow-right:hover {
+    color: #8594e4;
+    cursor: pointer;
+  }
+  .project-mobile-section .projects-container .div2 .trash-btn:hover {
+    cursor: pointer;
+    color: black;
+  }
+}/*# sourceMappingURL=projectContainerMobile.css.map */
