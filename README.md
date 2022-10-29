@@ -1,4 +1,4 @@
-##IMPORTANT
+## IMPORTANT
 Before we get started, in case you don't have time to test this project, you can find a demo video that I've made here
 https://we.tl/t-ff700Pcw8I .
 
