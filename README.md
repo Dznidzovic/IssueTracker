@@ -1,9 +1,10 @@
+##IMPORTANT
+Before we get started, in case you don't have time to test this project, you can find a demo video that I've made here
+https://we.tl/t-ff700Pcw8I .
 
 
 
 ## Getting Started
-
-
 Since this project will hold both the client application and the server application there will be node modules in two different places. First run `npm install` from both the client and server directories. After that run `npm install` from both the folders and use the app.
 
 ## File structure
